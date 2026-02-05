@@ -337,17 +337,53 @@ body {
 html {
     scroll-padding-top: 80px; 
 }
-/* --- MOBILE RESPONSIVENESS --- */
+/* --- MOBILE RESPONSIVENESS--- */
+
+/* 1. Hide the checkbox logic on Desktop */
+.menu-checkbox {
+    display: none;
+}
+.menu-icon {
+    display: none;
+}
+
+/* 2. Mobile Styles */
 @media (max-width: 768px) {
+    /* Show the hamburger icon */
+    .menu-icon {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    /* Hide the menu by default */
     .nav-menu {
         display: none;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: white;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        text-align: center;
     }
-    .menu-toggle {
-        display: block;
+
+    .nav-menu ul {
+        flex-direction: column;
+        padding: 1rem 0;
+        gap: 1.5rem;
     }
+
+    .menu-checkbox:checked ~ .nav-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
     .hero-content h1 {
         font-size: 2.5rem;
     }
+    
     .testimonial-card {
         flex-basis: 100%;
     }
