@@ -21,6 +21,15 @@ This is a responsive landing page for a fictional coding bootcamp, "CodeCamp 202
 * **Smooth Scrolling:** Clicking nav links smoothly scrolls to the section.
 * **Bonus:** Custom Favicon added.
 
+## 📸 Screenshots
+
+### Desktop View
+![Desktop View](images/Desktop_view.png)
+
+### Mobile View
+![Mobile View](images/Mobile_view.jpg)
+
+
 ## 📂 Folder Structure
 codecamp-landing/
 ├── index.html
