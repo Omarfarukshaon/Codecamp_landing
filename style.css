@@ -349,7 +349,11 @@ html {
 
 /* 2. Mobile Styles */
 @media (max-width: 768px) {
-    /* Show the hamburger icon */
+    .btn-enroll {
+        display: none;
+    }
+
+
     .menu-icon {
         display: block;
         font-size: 2rem;
@@ -357,7 +361,6 @@ html {
         user-select: none;
     }
 
-    /* Hide the menu by default */
     .nav-menu {
         display: none;
         width: 100%;
