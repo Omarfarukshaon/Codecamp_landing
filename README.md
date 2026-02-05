@@ -15,7 +15,7 @@ A responsive, high-performance landing page for a fictional coding bootcamp. Bui
 
 | **Desktop View** | **Mobile View** |
 |:---:|:---:|
-| <img src="images/Desktop_view.png" width="600" alt="Desktop Preview"> | <img src="images/Mobile_view.jpg" width="250" alt="Mobile Preview"> |
+| <img src="images/desktop_view1.png" width="600" alt="New Desktop Preview"> | <img src="images/mobile_view1.jpg" width="250" alt="New Mobile Preview"> |
 
 ---
 
